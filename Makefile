@@ -4,3 +4,9 @@ one:
 two:
 	@echo hello - two
 # will print only output
+
+
+git-pull:
+	git pull
+three: git-pull
+	echo Hello - three
